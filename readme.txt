@@ -11,3 +11,9 @@
 学习git reflog 命令，检查文件回滚日志
 学习git reset --hard HEAD 命令，实现提交文件的回滚
 学习git reset --hard “id” 命令，实现文件回滚的撤销
+20200718
+学习git checkout 命令，下载上次上传的原始文件
+    新版本使用git restore “file” 实现上述功能
+学习git reset HEAD 命令，撤销提交的修改
+    新版本使用git restore --staged “file” 实现上述功能
+学习git rm "file" 命令，实现对文件跟踪的删除
