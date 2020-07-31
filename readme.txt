@@ -30,3 +30,6 @@
 学习git branch 命令查看当前分支
 学习git switch -c 命令创建分支
 学习git switch “name” 命令更改当前分支
+学习git branch -d "name" 命令删除分支
+学习git merge "name" 合并当前分支
+
