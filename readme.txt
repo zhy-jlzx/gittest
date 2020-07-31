@@ -11,9 +11,19 @@
 学习git reflog 命令，检查文件回滚日志
 学习git reset --hard HEAD 命令，实现提交文件的回滚
 学习git reset --hard “id” 命令，实现文件回滚的撤销
-20200718
+20200719
 学习git checkout 命令，下载上次上传的原始文件
     新版本使用git restore “file” 实现上述功能
 学习git reset HEAD 命令，撤销提交的修改
     新版本使用git restore --staged “file” 实现上述功能
 学习git rm "file" 命令，实现对文件跟踪的删除
+20200731
+学习远程仓库使用
+    github.com网站建立账号
+    创建repository，对应本机git init
+    使用ssh-keygen 创建密钥对用于访问
+    使用git remote add origin 命令添加本地库与远程库的关联
+    使用git remote remove origin 命令删除本地库与远程库的关联
+    关联方式可以使用https或者ssh，使用ssh需要密钥对
+    使用git push -u origin master 进行首次上传仓库，以后不用-u
+    使用git clone 命令可以从远程库下载至本地库
