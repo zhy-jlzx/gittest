@@ -27,3 +27,6 @@
     关联方式可以使用https或者ssh，使用ssh需要密钥对
     使用git push -u origin master 进行首次上传仓库，以后不用-u
     使用git clone 命令可以从远程库下载至本地库
+学习git branch 命令查看当前分支
+学习git switch -c 命令创建分支
+学习git switch “name” 命令更改当前分支
